@@ -1,0 +1,4 @@
+[build]
+  command = "R -e 'shiny::runApp(appDir = \".\")'"
+  functions = "functions"
+  publish = "public"
